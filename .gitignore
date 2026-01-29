@@ -1,0 +1,20 @@
+cat <<EOF > .gitignore
+# 忽略所有中间过程产生的视频和音频
+temp_*.wav
+temp_*.mp4
+*.ass
+separated/
+
+# 忽略输入和输出文件夹（只保留 README 中的示例即可）
+input/
+output_mp4/
+output_srt/
+
+# 忽略模型权重文件
+YourMT3/amt/logs/
+*.ckpt
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+EOF
