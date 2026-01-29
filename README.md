@@ -38,7 +38,13 @@
 ```bash
 pip install -r requirements.txt
 ```
-### 2. 运行转录
+
+### 2. 下载模型权重
+由于YourMT3+模型权重文件 (`.ckpt`) 体积较大，未上传至 GitHub。请执行以下操作：
+- 从 [[该链接](https://huggingface.co/spaces/mimbres/YourMT3/blob/main/amt/logs/2024/mc13_256_g4_all_v7_mt3f_sqr_rms_moe_wf4_n8k2_silu_rope_rp_b36_nops/checkpoints/last.ckpt)] 下载预训练权重`last.ckpt`。
+- 将权重文件放置于项目根目录下的 `YourMT3/amt/logs/2024/mc13_256_g4_all_v7_mt3f_sqr_rms_moe_wf4_n8k2_silu_rope_rp_b36_nops/checkpoints` 文件夹内。
+
+### 3. 运行转录
 将您的音频放入 input/ 文件夹，在 main.py 中配置输入路径：
 
 ```bash
