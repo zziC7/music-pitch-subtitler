@@ -18,7 +18,6 @@ YourMT3/amt/logs/
 # 忽略 Python 缓存
 __pycache__/
 *.pyc
-EOF
 .ipynb_checkpoints/
 .vscode/
 .idea/
