@@ -5,10 +5,8 @@ temp_*.mp4
 *.ass
 separated/
 
-input/林俊杰_领悟.mp4
-input/demo_video.mp4
-output_mp4/林俊杰_领悟_音高版.mp4
-output_mp4/demo_video.mp4
+input/
+output_mp4/
 output_srt/
 
 # 忽略模型权重文件
