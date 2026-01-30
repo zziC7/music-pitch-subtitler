@@ -65,12 +65,14 @@ python main.py
   您的浏览器不支持播放该视频，请检查路径或手动下载。
 </video>
 
+
+
 ### 2. 输出结果 (音高可视化版)
 > 经过音源分离、YourMT3 转录并合成字幕后的最终效果。
 
-<video src="https://github.com/zziC7/music-pitch-subtitler/blob/main/output_mp4/demo_video_output.mp4" controls width="100%">
-  您的浏览器不支持播放该视频，请检查路径或手动下载。
-</video>
+https://github.com/user-attachments/assets/3c247885-5d77-46da-990c-f3eb6a78a646
+
+
 
 ---
 
