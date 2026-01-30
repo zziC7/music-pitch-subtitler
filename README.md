@@ -61,18 +61,12 @@ python main.py
 ### 1. 输入源文件 (原始音频/视频)
 > 包含背景音乐和人声的原始素材。
 
-<video src="https://github.com/zziC7/music-pitch-subtitler/blob/main/input/demo_video_input.mp4" controls width="100%">
-  您的浏览器不支持播放该视频，请检查路径或手动下载。
-</video>
-
-
+https://github.com/user-attachments/assets/0bade049-4638-4783-bf7c-4ca4c78bf0a4
 
 ### 2. 输出结果 (音高可视化版)
 > 经过音源分离、YourMT3 转录并合成字幕后的最终效果。
 
-https://github.com/user-attachments/assets/3c247885-5d77-46da-990c-f3eb6a78a646
-
-
+https://github.com/user-attachments/assets/e8d304eb-beb8-4ce4-8b0e-5426efcd52d4
 
 ---
 
