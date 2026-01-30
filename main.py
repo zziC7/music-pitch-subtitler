@@ -9,7 +9,7 @@ from audio_utils import prepare_media, run_demucs
 from subtitle_utils import generate_ass, generate_srt
 
 # --- 1. 路径与参数配置区 ---
-INPUT_FILE = "input/林俊杰-领悟.mp4"           # 输入文件名
+INPUT_FILE = "input/demo_video.mp4"           # 输入文件名
 base_filename = os.path.basename(INPUT_FILE)
 file_stem = os.path.splitext(base_filename)[0]
 os.makedirs("output_mp4", exist_ok=True)
