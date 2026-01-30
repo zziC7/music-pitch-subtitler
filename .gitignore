@@ -9,7 +9,7 @@ input/林俊杰_领悟.mp4
 input/demo_video.mp4
 output_mp4/林俊杰_领悟_音高版.mp4
 output_mp4/demo_video.mp4
-output_srt
+output_srt/
 
 # 忽略模型权重文件
 YourMT3/amt/logs/
@@ -21,3 +21,5 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 .idea/
+
+ffmpeg -i input/demo_video.mp4 -ss 00:01:33 -c copy input/demo_video_cut.mp4
