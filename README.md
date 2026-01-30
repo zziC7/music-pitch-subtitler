@@ -61,14 +61,14 @@ python main.py
 ### 1. 输入源文件 (原始音频/视频)
 > 包含背景音乐和人声的原始素材。
 
-<video src="input/demo_video.mp4" controls width="100%">
+<video src="input/demo_video_input.mp4" controls width="100%">
   您的浏览器不支持播放该视频，请检查路径或手动下载。
 </video>
 
 ### 2. 输出结果 (音高可视化版)
 > 经过音源分离、YourMT3 转录并合成字幕后的最终效果。
 
-<video src="output_mp4/demo_video.mp4" controls width="100%">
+<video src="output_mp4/demo_video_output.mp4" controls width="100%">
   您的浏览器不支持播放该视频，请检查路径或手动下载。
 </video>
 
